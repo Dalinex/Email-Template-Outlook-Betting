@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="format-detection" content="date=no" />
+	<meta name="format-detection" content="address=no" />
+	<meta name="format-detection" content="telephone=no" />
+    <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+    <title>Svjetsko klupsko prvenstvo</title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Web Font / @font-face : BEGIN -->
+    <!-- NOTE: If web fonts are not required, lines 10 - 27 can be safely removed. -->
+    <!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+    <!--[if mso]>
+        <style>
+            * {
+                font-family: Arial, sans-serif !important;
+            }
+        </style>
+    <![endif]-->
+    <!-- Final template for Sport Betting newsletter with odds by Lorin Cerina -->
+    <!--[if !mso]><!-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">
+    <!--<![endif]-->
+    <!-- Web Font / @font-face : END -->
+    <!-- CSS Reset -->
+      <style>
+a {
+	font-family: Google Sans, Google Medium Sans, sans-serif;
+	font-size: 15px;
+	color: #c61d23;
+	font-weight: bold;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #c61d23;
+}
+a:hover {
+	text-decoration: none;
+	color: #c61d23;
+}
+a:active {
+	text-decoration: none;
+	color: #c61d23;
+	text-align: center;
+}	
+div {
+    font-size:xx-small;
+}
+        /* What it does: Remove spaces around the email design added by some email clients. */
+        /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+        html,
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+        /* What it does: Stops email clients resizing small text. */
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        /* What it does: Centers email on Android 4.4 */
+        div[style*="margin: 16px 0"] {
+            margin:0 !important;
+        }
+        /* What it does: Stops Outlook from adding extra spacing to tables. */
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+        /* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }
+        table table table {
+            table-layout: auto;
+        }
+        /* What it does: Uses a better rendering method when resizing images in IE. */
+        img {
+	-ms-interpolation-mode: bicubic;
+	color: #FFF;
+        }
+        /* What it does: A work-around for email clients meddling in triggered links. */
+        *[x-apple-data-detectors],  /* iOS */
+        .x-gmail-data-detectors,    /* Gmail */
+        .x-gmail-data-detectors *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        /* What it does: Prevents Gmail from displaying an download button on large, non-linked images. */
+        .a6S {
+            display: none !important;
+            opacity: 0.01 !important;
+        }
+        /* If the above doesn't work, add a .g-img class to any image in question. */
+        img.g-img + div {
+            display:none !important;
+           }
+        /* What it does: Prevents underlining the button text in Windows 10 */
+        .button-link {
+            text-decoration: none !important;
+        }
+        /* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
+        /* Create one of these media queries for each additional viewport size you'd like to fix */
+                @media only screen and (min-device-width: 375px) and (max-device-width: 413px) { /* iPhone 6 and 6+ */
+        .email-container {
+            min-width: 375px !important;
+            }
+</style>
+    <!-- Progressive Enhancements -->
+<style>
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #E30000 !important;
+            border-color: #E30000 !important;
+        }
+        /* Media Queries */
+        @media screen and (max-width: 480px) {
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+            /* What it does: Adjust typography on small screens to improve readability */
+            .email-container p {
+                font-size: 17px !important;
+                line-height: 22px !important;
+        }
+    .email-container .email-container tr td table tr td font table tbody tr td table {
+	color: #FFF;
+}
+    </style>
+    <!-- What it does: Makes background images in 72ppi Outlook render at correct size. -->
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+</head>
+<body width="100%" bgcolor="#F1F1F1" style="margin: 0; mso-line-height-rule: exactly;">
+    <center style="width: 100%; background: #F1F1F1; text-align: left;">
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family:'Open Sans', sans-serif;">
+            Svjetsko klupsko prvenstvo
+      </div>
+        <!-- Visually Hidden Preheader Text : END -->
+        <div style="max-width: 680px; margin: auto;" class="email-container">
+            <!--[if mso]>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
+            <tr>
+            <td>
+            <![endif]-->
+            <!-- Email Body : BEGIN -->
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;" class="email-container">
+                <tr>
+                    <td bgcolor="#D42127"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td style="padding-bottom: 10px;"><div class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left">
+                          <div class="img-center" style="font-size:0pt; line-height:0pt; text-align:center"><img src="https://cdn.supersport.hr/newsletter_images/2018/06_2018/section_shadow.png" border="0" width="100%" height="auto" alt="" /></div>
+                        </div></td>
+                      </tr>
+                    </table>
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                          <td style="padding: 20px 40px 20px 40px; text-align: center;" align="center"><img src="http://assets.newsletter.supersport.hr.s3.amazonaws.com/Newsletter/logo/SS_Logo_2018.png" width="250" height="39" alt="SuperSport" /></td>
+                        </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ffffff">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding: 20px 40px 0px 40px; text-align: center;">
+                                    <h1 style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 23px; line-height: 30px; color: #3D4247; font-weight: bold; text-align: center;">%recipient.firstname%</h1>
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td colspan="3" style="padding: 10px 40px 10px 40px; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 30px; color: #555555; text-align: center; font-weight: normal;"><p>Real Madrid ima priliku osvojiti rekordni 4. naslov svjetskog klupskog prvaka. Protivnik mu je Al Ain koji je iznenađujuće izbacio prvaka Južne Amerike i na krilima tog fantastičnog uspjeha dočekuje najbolju momčad Europe.</p></td>
+                          </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ffffff">&nbsp;</td>
+                </tr
+                >
+               <tr>
+                  <td align="center" bgcolor="#ffffff"><a href="https://www.supersport.hr/sport/dogadjaj/16489458"><img src="https://cdn.supersport.hr/newsletter_images/2018/12_2018/FIFA-UAE-2018.jpg" alt="FIFA UAE 2018 Finale" width="100%"></a></td>
+                </tr>
+                <tr>
+                  <td align="center" bgcolor="#ffffff"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                            <td colspan="3" style="padding: 0px 40px 0px 40px; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 30px; color: #555555; text-align: center; font-weight: normal;"><p>Kako će završiti prvo poluvrijeme? Koliko će biti golova na utakmici? Hoće li obje momčadi postići gol? Ove ponude kao i još mnogo drugih možete pronaći na <a href="https://www.supersport.hr/sport/dogadjaj/16489458" target="_parent" style="color:#c61d23">SuperSport.hr</a></p></td>
+                          </tr>
+                    <tr>
+                            <td colspan="3" style="padding: 0px 40px 20px 40px; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 30px; color: #555555; text-align: center; font-weight: normal;"><p>Odigraj prije početka utakmice ili  na klađenju uživo i pretvori užitak u dobitak!</p></td>
+                          </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#3C4247"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td colspan="3" style="padding: 15px 25px 15px 25px; font-family: 'Open Sans', sans-serif; font-size: 15px; line-height: 30px; color: #555555; text-align: center; font-weight: normal;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0pt !important;mso-table-rspace: 0pt !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;">
+                        <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                          <td height="auto" colspan="2" align="left" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0pt !important;mso-table-rspace: 0pt !important;"><div style="text-align: left;font-family: 'Open Sans', sans-serif;font-size: 15px;margin-bottom: 0px;margin-top: 0px;color: #3d4247;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 26px; color: #FFFFFF; font-weight: bold; text-align: left;">Al Ain FC-Real Madrid</span></div></td>
+                        </tr>
+                        <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                          <td height="auto" colspan="2" align="left" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0pt !important;mso-table-rspace: 0pt !important;"><div style="text-align: left;font-family: 'Open Sans', sans-serif;font-size: 15px;margin-bottom: 0px;margin-top: 0px;color: #3d4247;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><font style="font-size: 14px;color: #5F5F5F;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"></font><font style="font-size: 14px;color: #FFFFFF;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">SP KLUBOVA - Nogomet</font></div></td>
+                        </tr>
+                        <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                          <td height="auto" align="left" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0pt !important;mso-table-rspace: 0pt !important;"><div style="text-align: left;font-family: Open Sans, sans-serif;font-size: 12px;margin-bottom: 0px;margin-top: 0px;color: #FFFFFF;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">sub </strong> 17:30</div></td>
+                          <td width="17%" align="center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0pt !important;mso-table-rspace: 0pt !important;"><div style="text-align: right;font-family: 'Open Sans', sans-serif;font-size: 13px;margin-bottom: 3px;margin-top: 3px;color: #3d4247;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><font style="font-size: 12px;color: #FFFFFF;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">+56</font></strong></div></td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+                <tr>
+                  <td bgcolor="#DADEE0"><div style="text-align: center;font-family: 'Oswald SemiBold', sans-serif;font-size: 15px;margin-bottom: 8px;margin-top: 8px;color: #20262a;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><strong style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-family: 'Oswald SemiBold', sans-serif;">OSNOVNA</strong></div></td>
+              </tr>
+                <tr>
+                    <td bgcolor="#ffffff">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                           <tr>
+                             <td colspan="3" align="center" style="padding: 10px 20px 20px 20px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0pt !important;mso-table-rspace: 0pt !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;">
+                               <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                 <td width="17%" height="auto" colspan="2" align="left" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0pt !important;mso-table-rspace: 0pt !important;"><div style="text-align: left;font-family: 'Open Sans', sans-serif;font-size: 15px;margin-bottom: 0px;margin-top: 0px;color: #3d4247;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><font style="font-size: 14px;color: #5F5F5F;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"></font><font style="font-size: 14px;color: #20262a;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Al Ain FC-Real Madrid</font></div></td>
+                               </tr>
+                             </table>
+<br>                               <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                               <tr>
+    <td>
+    
+    
+    <div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none'>
+ <tr>
+<td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;mso-border-alt:
+  solid #E0E0E0 .25pt;mso-border-themecolor:background1;mso-border-themeshade:
+  191;background:#FAFAFA;mso-background-themecolor:background1;mso-background-themeshade:
+  242;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none; color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">1</a><span style='font-size:9.5pt;color:#FFF;
+  mso-themecolor:text1;mso-themetint:191'><o:p></o:p></span></b></p>
+  </td>
+  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none; color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">15,0</a></b></p>
+  </td>
+  <td width="1%" valign=top style='width:1.0%;border:none;border-right:solid #E0E0E0 1.0pt;
+  padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b><span style='font-size:9.5pt;color:#FFF'>&nbsp;</span></b></p>
+  </td>
+  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#FAFAFA;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">X</a></b></p>
+  </td>
+  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">8,00</a></b></p>
+  </td>
+  <td width="1%" valign=top style='width:1.0%;border:none;border-right:solid #E0E0E0 1.0pt;
+  padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b><span style='font-size:9.5pt;color:#FFF'>&nbsp;</span></b></p>
+  </td>
+  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#FAFAFA;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">2</a></b></p>
+  </td>
+  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">1,25</a></b></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+                                     
+                                     
+                                     
+</td>
+</tr>
+</table></td>
+                           </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#DADEE0"><div style="text-align: center;font-family: 'Oswald SemiBold', sans-serif;font-size: 15px;margin-bottom: 8px;margin-top: 8px;color: #20262a;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><strong style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-family: 'Oswald SemiBold', sans-serif;">1. POLUVRIJEME</strong></div></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ffffff"><table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                           <tr>
+                             <td colspan="3" align="center" style="padding: 10px 20px 20px 20px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0pt !important;mso-table-rspace: 0pt !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;">
+                               <tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                 <td width="17%" height="auto" colspan="2" align="left" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0pt !important;mso-table-rspace: 0pt !important;"><div style="text-align: left;font-family: 'Open Sans', sans-serif;font-size: 14px;margin-bottom: 0px;margin-top: 0px;color: #3d4247;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><font style="font-size: 14px;color: #5F5F5F;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"></font><font style="font-size: 14px;color: #20262a;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Al Ain FC-Real Madrid</font></div></td>
+                               </tr>
+                             </table>
+                         <br>   
+                               <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                 <tr>
+    <td>
+    
+    
+    <div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none'>
+ <tr>
+<td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;mso-border-alt:
+  solid #E0E0E0 .25pt;mso-border-themecolor:background1;mso-border-themeshade:
+  191;background:#FAFAFA;mso-background-themecolor:background1;mso-background-themeshade:
+  242;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">1</a><span style='font-size:9.5pt;color:#FFF;
+  mso-themecolor:text1;mso-themetint:191'><o:p></o:p></span></b></p>
+  </td>
+  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">10,0</a></b></p>
+  </td>
+  <td width="1%" valign=top style='width:1.0%;border:none;border-right:solid #E0E0E0 1.0pt;
+  padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b><span style='font-size:9.5pt;color:#FFF'>&nbsp;</span></b></p>
+  </td>
+  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#FAFAFA;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">X</a></b></p>
+  </td>
+  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">3,00</a></b></p>
+  </td>
+  <td width="1%" valign=top style='width:1.0%;border:none;border-right:solid #E0E0E0 1.0pt;
+  padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b><span style='font-size:9.5pt;color:#FFF'>&nbsp;</span></b></p>
+  </td>
+  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#FAFAFA;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">2</a></b></p>
+  </td>
+  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">1,50</a></b></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+                                     
+                                     
+                                     
+</td>
+</tr>
+</table></td>
+                           </tr>
+                        </table></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#DADEE0"><div style="text-align: center;font-family: 'Oswald SemiBold', sans-serif;font-size: 15px;margin-bottom: 8px;margin-top: 8px;color: #20262a;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><strong style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-family: 'Oswald SemiBold', sans-serif;">ZBROJ GOLOVA</strong></div></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ffffff"><table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <tr>
+                      <td colspan="3" align="center" style="padding: 10px 20px 5px 20px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="100%" height="auto" align="left"><div style="text-align: left;font-family: 'Open Sans', sans-serif;font-size: 14px;margin-bottom: 0px;margin-top: 0px;color: #3d4247;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><font style="font-size: 14px;color: #5F5F5F;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"></font><font style="font-size: 14px;color: #20262a;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Al Ain FC(-3+)-Real Madrid</font></div></td>
+                          </tr>
+                        </table><br>   
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td><div align=center>
+                              <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none'>
+                                <tr>
+                                  <td width="19%" valign=top style='width:19.0%;border:solid #E0E0E0 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;mso-border-alt:
+  solid #E0E0E0 .25pt;mso-border-themecolor:background1;mso-border-themeshade:
+  191;background:#FAFAFA;mso-background-themecolor:background1;mso-background-themeshade:
+  242;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">manje</a><span style='font-size:9.5pt;color:#FFF;
+  mso-themecolor:text1;mso-themetint:191'>
+                                    <o:p></o:p>
+                                  </span></b></p></td>
+                                  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">3,20</a></b></p></td>
+                                  <td width="1%" valign=top style='width:1.0%;border:none;border-right:solid #E0E0E0 1.0pt;
+  padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b><span style='font-size:9.5pt;color:#FFF'>&nbsp;</span></b></p></td>
+                                  <td width="18%" valign=top style='width:18.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#FAFAFA;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">točno</a></b></p></td>
+                                  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">5,00</a></b></p></td>
+                                  <td width="1%" valign=top style='width:1.0%;border:none;border-right:solid #E0E0E0 1.0pt;
+  padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b><span style='font-size:9.5pt;color:#FFF'>&nbsp;</span></b></p></td>
+                                  <td width="18%" valign=top style='width:18.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#FAFAFA;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">više</a></b></p></td>
+                                  <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">1,70</a></b></p></td>
+                                </tr>
+                              </table>
+                            </div></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td colspan="3" align="center" style="padding: 10px 20px 5px 20px;">&nbsp;</td>
+                    </tr>
+                  </table>
+                    
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td colspan="3" align="center" style="padding: 0px 20px 20px 20px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                          <tr>
+                              <td width="100%" height="auto" align="left"><div style="text-align: left;font-family: 'Open Sans', sans-serif;font-size: 14px;margin-bottom: 0px;margin-top: 0px;color: #3d4247;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><font style="font-size: 14px;color: #5F5F5F;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"></font><font style="font-size: 14px;color: #20262a;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Al Ain FC(-2+)-Real Madrid</font></div></td>
+                          </tr>
+                          </table><br>   
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td><div align=center>
+                                <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none'>
+                                  <tr>
+                                    <td width="19%" valign=top style='width:19.0%;border:solid #E0E0E0 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;mso-border-alt:
+  solid #E0E0E0 .25pt;mso-border-themecolor:background1;mso-border-themeshade:
+  191;background:#FAFAFA;mso-background-themecolor:background1;mso-background-themeshade:
+  242;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">manje</a><span style='font-size:9.5pt;color:#FFF;
+  mso-themecolor:text1;mso-themetint:191'>
+                                      <o:p></o:p>
+                                    </span></b></p></td>
+                                    <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">8,00</a></b></p></td>
+                                    <td width="1%" valign=top style='width:1.0%;border:none;border-right:solid #E0E0E0 1.0pt;
+  padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b><span style='font-size:9.5pt;color:#FFF'>&nbsp;</span></b></p></td>
+                                    <td width="18%" valign=top style='width:18.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#FAFAFA;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">točno</a></b></p></td>
+                                    <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">5,00</a></b></p></td>
+                                    <td width="1%" valign=top style='width:1.0%;border:none;border-right:solid #E0E0E0 1.0pt;
+  padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b><span style='font-size:9.5pt;color:#FFF'>&nbsp;</span></b></p></td>
+                                    <td width="18%" valign=top style='width:18.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#FAFAFA;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">više</a></b></p></td>
+                                    <td width="16%" valign=top style='width:16.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">1,30</a></b></p></td>
+                                  </tr>
+                                </table>
+                              </div></td>
+                            </tr>
+                        </table></td>
+                      </tr>
+                    </table>
+                    </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#DADEE0"><div style="text-align: center;font-family: 'Oswald SemiBold', sans-serif;font-size: 15px;margin-bottom: 8px;margin-top: 8px;color: #20262a;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><strong style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-family: 'Oswald SemiBold', sans-serif;">OBA DAJU GOL</strong></div></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ffffff"><table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <tr>
+                      <td colspan="3" align="center" style="padding: 10px 20px 20px 20px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="100%" height="auto" align="left"><div style="text-align: left;font-family: 'Open Sans', sans-serif;font-size: 14px;margin-bottom: 0px;margin-top: 0px;color: #3d4247;line-height: 125%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><font style="font-size: 14px;color: #5F5F5F;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"></font><font style="font-size: 14px;color: #20262a;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Al Ain FC-Real Madrid</font></div></td>
+                        </tr>
+                        </table><br>   
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td><div align=center>
+                              <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none'>
+                                <tr>
+                                  <td width="23%" valign=top style='width:23.0%;border:solid #E0E0E0 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;mso-border-alt:
+  solid #E0E0E0 .25pt;mso-border-themecolor:background1;mso-border-themeshade:
+  191;background:#FAFAFA;mso-background-themecolor:background1;mso-background-themeshade:
+  242;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">da</a><span style='font-size:9.5pt;color:#FFF;
+  mso-themecolor:text1;mso-themetint:191'>
+                                    <o:p></o:p>
+                                  </span></b></p></td>
+                                  <td width="23%" valign=top style='width:23.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">1,80</a></b></p></td>
+                                  <td width="1%" valign=top style='width:1.0%;border:none;border-right:solid #E0E0E0 1.0pt;
+  padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b><span style='font-size:9.5pt;color:#FFF'>&nbsp;</span></b></p></td>
+                                  <td width="23%" valign=top style='width:23.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#FAFAFA;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">ne</a></b></p></td>
+                                  <td width="23%" valign=top style='width:23.0%;border:solid #E0E0E0 1.0pt;
+  border-left:none;background:#F5F5F5;padding:0cm 3.4pt 0cm 3.4pt'><p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm; margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><a href="https://www.supersport.hr/sport/dogadjaj/16489458" title="tecaj" target="_parent" style="text-decoration: none;  color: #5f5f5f; font-weight: bold; font-family: Open Sans, sans-serif; font-size: 13px;">2,00</a></b></p></td>
+                                </tr>
+                              </table>
+                            </div></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#F1F1F1">&nbsp;</td>
+                </tr>
+                 <tr>
+                    <td bgcolor="#ffffff">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td style="padding: 20px 40px 0px 40px; text-align: center;">
+                                    <h3 style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 36px; color: #3D4247; font-weight: bold;">Igrajte i očekujte nove pogodnosti koje pripremamo za Vas!</h3>
+                            </td>
+                          </tr>
+                        </table>
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td colspan="3" style="padding: 10px 40px 20px 40px; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 30px; color: #555555; text-align: center; font-weight: normal;">Zahvaljujemo Vam na povjerenju koje ste nam ukazali i želimo Vam puno sreće i dobitaka u našim igrama!</td>
+                          </tr>
+                      </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#F1F1F1">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ffffff"><table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <tr>
+                      <td colspan="3" style="padding: 20px 40px 0px 40px; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 30px; color: #555555; text-align: center; font-weight: normal;"><span style="margin: 0;">P.S. I ne zaboravite, za bilo kakva dodatna pitanja, naš odjel podrške na <a href="mailto:ssport@supersport.hr" style="color:#c61d23"><b>ssport@supersport.hr</b></a> radi samo za Vas.</span></td>
+                    </tr>
+                  </table>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td style="padding: 20px 40px 20px 40px; font-family:'Open Sans', sans-serif; font-size: 16px; line-height: 20px; color: #3D4247; text-align: center; font-weight:bold;"><p style="margin: 0;">Vaš SuperSport!</p></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#20262a"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td style="padding-bottom: 2px;"><div style="text-align:center;font-family:'Open Sans', sans-serif;font-size:14px;margin-left:14px;margin-right:14px;margin-bottom:5px;margin-top:20px;color:#FFFFFF;line-height:135%;">Ovaj newsletter primate zato što ste se za ovu uslugu prijavili na <a href="http://www.supersport.hr" target="_parent" style="color:#FFFFFF">www.supersport.hr.</a> </div></td>
+                    </tr>
+                    <tr>
+                      <td style="padding-bottom: 5px;"><div style="text-align:center;font-family:'Open Sans', sans-serif;font-size:14px;margin-left:14px;margin-right:14px;margin-bottom:5px;margin-top:5px;color:#FFFFFF;line-height:135%;">Ukoliko ne želite više primati newsletter molimo da se odjavite na donjem linku. </div>
+                        <div style="text-align:center;font-family: 'Montserrat', sans-serif;font-size:12px;margin-left:14px;margin-right:14px;margin-bottom:0px;margin-top:15px;color: #5f5f5f;line-height:100%;"><a href="%tag_unsubscribe_url%" style="color: #FFFFFF"><b>Odjavi sportski newsletter</b></a></div></td>
+                    </tr>
+                    <tr>
+                      <td><div style="text-align:center;font-family:'Open Sans', sans-serif;font-size:12px;;margin-left:14px;margin-right:14px;margin-bottom:5px;margin-top:5px; line-height:22px; text-align:center; color:#FFFFFF;"> Copyright © 2019 <strong>SuperSport d.o.o.,</strong><a style="color: #ffffff; text-decoration: none; font-family:'Open Sans', sans-serif;font-size: 12px;"> Krčka 18d, Zagreb, Hrvatska</a></div></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <!-- Bulletproof Background Images c/o https://backgrounds.cm -->
+            </table>
+            <!-- Email Body : END -->
+            <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+    </center>
+</body>
+</html>
